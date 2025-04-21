@@ -14,7 +14,11 @@ body {
   position: relative;
   background: transparent;
 }
-
+.portfolio-img {
+  width: 100%;       /* Makes it responsive within the card */
+  height: 250px;     /* Fixed height */
+  object-fit: cover; /* Ensures the image scales and crops nicely */
+}
 body::before {
   content: "";
   position: fixed;

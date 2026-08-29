@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Tranquil AI Case Study | Ashutosh Kala</title>
+  <meta content="How I built and scaled an AI mental wellness app to 10,000+ users as Founder & CTO." name="description">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/venobox/venobox.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+
+  <style>
+    /* Fixed header style matching section pages */
+    .case-study-header {
+      background: #09203a;
+      height: 70px;
+      position: fixed;
+      left: 0;
+      top: 0;
+      right: 0;
+      z-index: 997;
+      display: flex;
+      align-items: center;
+    }
+    .case-study-header h1 {
+      font-size: 26px;
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+      font-weight: 700;
+      font-family: "Poppins", sans-serif;
+    }
+    .case-study-header h1 a {
+      color: #dee2e6;
+    }
+
+    /* Container adjustments to match the site's overlay section structure */
+    .case-study-container {
+      margin-top: 100px;
+      margin-bottom: 60px;
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Styling internal elements to match the dark theme UI */
+    .case-study-content {
+      background: #09203a;
+      padding: 40px;
+      border-radius: 4px;
+    }
+    .case-study-content h1 {
+      font-size: 32px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+    .case-study-content .subtitle {
+      color: #12d640;
+      font-style: italic;
+      margin-bottom: 30px;
+    }
+    .case-study-content h2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #fff;
+      margin-top: 36px;
+      margin-bottom: 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      padding-bottom: 8px;
+    }
+    .case-study-content p, 
+    .case-study-content li {
+      font-size: 15px;
+      line-height: 1.75;
+      color: #dee2e6;
+    }
+    .case-study-content ul, 
+    .case-study-content ol {
+      padding-left: 22px;
+      margin-bottom: 20px;
+    }
+    .case-study-content strong {
+      color: #fff;
+    }
+    .back-link {
+      display: inline-block;
+      margin-bottom: 20px;
+      color: #12d640;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .back-link:hover {
+      color: #15bb62;
+      text-decoration: underline;
+    }
+    .closing {
+      font-style: italic;
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header class="case-study-header">
+    <div class="container">
+      <h1><a href="../index.html">Ashutosh Kala</a></h1>
+    </div>
+  </header>
+
+  <!-- Main Case Study Content Section -->
+  <div class="container case-study-container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="case-study-content">
+
+          <a href="../index.html#tranquil-case-study" class="back-link">&larr; Back to portfolio</a>
+
+          <h1>Building Tranquil AI: A Story About Listening Before Solving</h1>
+          <p class="subtitle">Ashutosh Kala, Founder &amp; CTO Tranquil Labs, Jan 2024 to Jan 2025</p>
+
+          <p>During COVID, I watched friends struggle with their mental health, and I noticed something that stuck with me. Even when someone privately admitted they had a problem, two walls stood between them and getting help:</p>
+          <ul>
+            <li>In India, there's still real stigma in saying it out loud.</li>
+            <li>Professional therapy is expensive enough to be out of reach for most students.</li>
+          </ul>
+          <p>One friend of mine in college was clearly struggling but was too scared to go to the university counselors, not because he didn't trust them, but because he was afraid it wouldn't stay private. That gap, between wanting help and having a safe, affordable way to get it, is what pulled me into building this.</p>
+
+          <p>Nothing that existed closed that gap:</p>
+          <ul>
+            <li>Calm and Headspace were mostly meditation, not real support.</li>
+            <li>Talkspace was priced for a different market entirely.</li>
+            <li>AI chatbots like Wysa or Replika were accessible but didn't feel clinically grounded or emotionally deep enough to actually help someone through something hard.</li>
+          </ul>
+          <p>There was space for something that combined real accessibility with real depth.</p>
+
+          <h2>What our first users taught us</h2>
+          <p>Before we built anything polished, we handed a rough prototype to friends at university and asked for honest feedback. What we learned surprised us: the AI therapist wasn't refined yet, but people weren't responding to the quality of its advice. What actually helped was simpler, they could speak without fear of being judged, and say things out loud they hadn't said to anyone else.</p>
+          <p>That single insight changed the product's direction. We'd been building an AI that jumped straight to solutions. We rebuilt it to listen first: open space for the user to talk, let them get the emotion out, and only then guide them toward a conclusion using CBT technique. Solution-oriented, but only after listening, never instead of it.</p>
+          <p>That prototype grew into a real beta program: 50-plus early testers, growing to 4,000+ beta signups, with daily engagement across journaling, therapy sessions, and mood tracking, and average session time above 9 minutes, higher than typical for the category.</p>
+          <p><strong>One assumption we got wrong.</strong> None of us personally journaled, so early on we thought journaling was a minor feature, easy to deprioritize. User feedback said otherwise. People wanted it, and many had never journaled before and didn't know how to start. So we built prompted journaling: short guided prompts that ease a first-timer in, which the AI then expands into a fuller journal entry. It's a small feature, but it directly came from catching our own bias, we'd assumed our own habits represented our users, and they didn't.</p>
+
+          <h2>The decisions behind the features</h2>
+
+          <p><strong>Predicting mood before it becomes a problem.</strong> The mood prediction engine looks at patterns in daily mood logs. If it notices a user's mood consistently dips on weekday afternoons after back-to-back meetings, it proactively sends a short breathing exercise or check-in before the next one, instead of waiting for the person to open the app on their own. Users also get trend insights over time showing what's actually driving their mood down, with AI-suggested ways to improve it. Most competitors were purely reactive, you had to bring them a problem already fully formed. We wanted something that noticed first.</p>
+
+          <p><strong>Making the AI remember you.</strong> With a growing feature set, a one-size-fits-all experience would have buried people in options that meant nothing to them. So the AI chatbot carried context from a user's previous conversations and mood history, understanding what someone had been going through over time instead of treating every session like a stranger walking in fresh. That meant better advice, recognizing a person's own patterns, and suggesting in-app activities that actually matched their needs.</p>
+
+          <p><strong>Building habits without building a trap.</strong> Retention is hard in any app, and especially hard in one where the whole point is that people feel better and might eventually need it less. We designed streaks deliberately using Nir Eyal's Hook Model, not as a bolted-on afterthought:</p>
+          <ul>
+            <li><strong>Trigger:</strong> a notification, or a streak about to end</li>
+            <li><strong>Action:</strong> the easiest possible one, log your mood</li>
+            <li><strong>Variable reward:</strong> your streak grows, the suggested activity changes based on what you logged, and leveling up unlocks sharper mood insights</li>
+            <li><strong>Investment:</strong> the longer you log, the more personalized and useful the app becomes</li>
+          </ul>
+          <p>We didn't take this lightly. The team had a real internal debate about whether gamifying a mental health product was ethical, were we helping people, or building a trap to keep them opening the app?</p>
+          <p>What settled it:</p>
+          <ul>
+            <li>The time cost to the user was tiny, logging a mood takes seconds.</li>
+            <li>What they got back (better personalized advice, real insight into their own patterns) was genuinely useful to <em>them</em>, not just to our engagement numbers.</li>
+            <li>A 2021 study on mobile mood-monitoring in young people (Frontiers in Psychiatry) backed this up too: just the act of logging mood regularly, with no advice or therapy content attached, significantly reduced negative mood and impulsivity over a three-week period.</li>
+          </ul>
+          <p>That gave us real confidence the core loop was good for people, not just good for our metrics.</p>
+
+          <p><strong>Making the app feel instant.</strong> I architected and scaled the backend using Flask, Docker, and cloud infrastructure, cutting API response time by around 30%. This wasn't performance work for its own sake, it's what made the Hook Model's reward moments actually feel rewarding (instant feedback, not a loading spinner), and it was a hard requirement for voice-to-voice conversation, which needs low latency to feel like a real exchange rather than something clunky.</p>
+
+          <h2>Building trust deliberately</h2>
+          <p>A few decisions weren't about engagement at all, they were about earning the right to be trusted with something this personal:</p>
+          <ul>
+            <li><strong>Encrypted chat and journal entries.</strong> Given that privacy fear was the exact reason my friend never sought help in the first place, this wasn't optional. If people were going to say things here they wouldn't say anywhere else, the app had to actually protect that.</li>
+            <li><strong>Meditative music, box breathing, and other grounding exercises</strong>, giving people lightweight tools to use in the moment, not just conversation.</li>
+            <li><strong>We marketed it as an "AI companion," never as therapy.</strong> This was a deliberate legal and ethical line, not just a branding choice. Calling it therapy would have implied a clinical claim we couldn't back and didn't want to make.</li>
+            <li><strong>Distress detection and escalation to a human.</strong> The AI was built to recognize when a conversation crossed a line it shouldn't try to handle alone, signs of suicidal ideation, self-harm, or substance abuse. In those moments, the app doesn't try to be the solution. It surfaces local distress helpline numbers and points people toward real therapists, NGOs, and support groups.</li>
+            <li><strong>Checking the AI's own words before they reached the user.</strong> Every AI response went through a negativity check before being sent, a safeguard against the AI itself ever saying something that could add to a user's distress rather than ease it. In a normal product, a poorly worded response is a bad UX moment. In this one, it could genuinely hurt someone, so we treated it as a hard gate, not a nice-to-have.</li>
+          </ul>
+
+          <h2>What it added up to</h2>
+          <p>By the time I stepped away, the app had grown to 10,000+ users, up from those first 50 testers and then 4,000 beta signups. Retention improved by 25% and daily active usage grew by 32%, from the combination of the features above working together: mood prediction bringing people back proactively, personalization making each visit worth it, and the gamification loop giving a light, honest reason to return. User growth itself came largely from word of mouth and campus ambassador programs in college communities, the same demographic the product was built for.</p>
+          <p>We raised 5 lakh rupees in pre-seed funding, were named among the Top 10 Student Startups by Cisco and Nasscom's Thingqubator, and showcased Tranquil at Startup Mahakumbh and the India AI Summit.</p>
+
+          <h2>Learning to lead a team, not just four friends</h2>
+          <p>I worked across a team of 10+ people spanning AI, mobile development, backend, and design, owning the product decisions and technical infrastructure that shaped the user experience.</p>
+          <p>The hardest part wasn't technical. With just the four of us co-founders, we never needed to explain our vision to each other, we all just knew it. The moment we brought on interns and new team members, that fell apart, not everyone arrived aligned, and there was no documentation to bring them up to speed.</p>
+          <p>We had to build that from nothing:</p>
+          <ul>
+            <li>Clearer task delegation</li>
+            <li>Real documentation of what had been done and where we were headed</li>
+            <li>A process for getting new people up to speed on both hard skills <em>and</em> the product vision at the same time</li>
+          </ul>
+
+          <h2>What I'd do differently</h2>
+          <p>Three things I see clearly now that I didn't see then:</p>
+          <ol>
+            <li><strong>Scope.</strong> All four of us came in biased toward adding more and more features without real prioritization. We built a lot, then realized not all of it was necessary or even wanted. That's what taught me to write proper user stories and use prioritization frameworks like RICE or MoSCoW to cut scope on purpose, fewer, higher-quality features beat shipping everything you can think of.</li>
+            <li><strong>Validation.</strong> Tranquil started at a hackathon, and after we won it, we kept building on that momentum without grounding decisions deeply enough in user feedback or real business impact. A win, or a good demo, isn't evidence that people need what you're building.</li>
+            <li><strong>Knowing when to step back.</strong> After campus placements, I realized there was more for me to learn before continuing as a founder, specifically workplace best practices, managing teams at scale, and handling stakeholders in a bigger organizational setting than four co-founders in a room. That's what led me to take a Technical Project Manager role at ION Group, to build that muscle deliberately before building again. The other three co-founders kept going with Tranquil, scaling it further and expanding into freelance client application development.</li>
+          </ol>
+
+          <p class="closing">Building Tranquil taught me something I didn't fully understand until I lived it: the best product decisions rarely come from the loudest feature idea in the room, they come from actually listening, to users, to data, and sometimes to your own team telling you something isn't working yet. That's the instinct I want to keep sharpening, wherever I build next.</p>
+
+          <a href="../index.html#tranquil-case-study" class="back-link" style="margin-top:20px;">&larr; Back to portfolio</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/jquery/jquery.min.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+
+</body>
+</html>

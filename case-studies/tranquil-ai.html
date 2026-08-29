@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Tranquil AI Case Study | Ashutosh Kala</title>
-  <meta content="How I built and scaled an AI mental wellness app to 10,000+ users as Founder & CTO." name="description">
+  <title>Tranquil AI Case Study</title>
+  <meta content="How an AI mental wellness app was built and scaled to 10,000+ users." name="description">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -22,7 +22,12 @@
   <link href="../assets/css/style.css" rel="stylesheet">
 
   <style>
-    /* Fixed header style matching section pages */
+    body {
+      background-color: #040b14;
+      color: #dee2e6;
+    }
+
+    /* Fixed header style for independent case study page */
     .case-study-header {
       background: #09203a;
       height: 70px;
@@ -33,32 +38,45 @@
       z-index: 997;
       display: flex;
       align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
     .case-study-header h1 {
-      font-size: 26px;
+      font-size: 22px;
       margin: 0;
       padding: 0;
       line-height: 1;
       font-weight: 700;
       font-family: "Poppins", sans-serif;
+      color: #fff;
     }
-    .case-study-header h1 a {
-      color: #dee2e6;
+    .case-study-header .header-nav {
+      margin-left: auto;
+    }
+    .case-study-header .header-nav a {
+      color: #12d640;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+    .case-study-header .header-nav a:hover {
+      color: #15bb62;
     }
 
-    /* Container adjustments to match the site's overlay section structure */
+    /* Container adjustments */
     .case-study-container {
-      margin-top: 100px;
+      margin-top: 110px;
       margin-bottom: 60px;
       position: relative;
       z-index: 2;
     }
 
-    /* Styling internal elements to match the dark theme UI */
+    /* Content Card */
     .case-study-content {
       background: #09203a;
-      padding: 40px;
-      border-radius: 4px;
+      padding: 45px;
+      border-radius: 8px;
+      box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.3);
     }
     .case-study-content h1 {
       font-size: 32px;
@@ -94,22 +112,38 @@
     .case-study-content strong {
       color: #fff;
     }
-    .back-link {
-      display: inline-block;
-      margin-bottom: 20px;
+
+    /* Bottom Navigation Bar */
+    .case-study-footer-nav {
+      margin-top: 50px;
+      padding-top: 25px;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .case-study-footer-nav a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
       color: #12d640;
       font-weight: 600;
       text-decoration: none;
+      padding: 10px 20px;
+      border: 1px solid #12d640;
+      border-radius: 4px;
+      transition: all 0.3s ease;
     }
-    .back-link:hover {
-      color: #15bb62;
-      text-decoration: underline;
+    .case-study-footer-nav a:hover {
+      background: #12d640;
+      color: #09203a;
     }
+
     .closing {
       font-style: italic;
-      margin-top: 40px;
-      padding-top: 24px;
-      border-top: 1px solid rgba(255, 255, 255, 0.15);
+      margin-top: 30px;
     }
   </style>
 </head>
@@ -118,8 +152,11 @@
 
   <!-- Header Section -->
   <header class="case-study-header">
-    <div class="container">
-      <h1><a href="../index.html">Ashutosh Kala</a></h1>
+    <div class="container d-flex align-items-center">
+      <h1>Tranquil AI — Case Study</h1>
+      <div class="header-nav">
+        <a href="../index.html">&larr; Back to Portfolio</a>
+      </div>
     </div>
   </header>
 
@@ -129,10 +166,8 @@
       <div class="col-lg-12">
         <div class="case-study-content">
 
-          <a href="../index.html#tranquil-case-study" class="back-link">&larr; Back to portfolio</a>
-
           <h1>Building Tranquil AI: A Story About Listening Before Solving</h1>
-          <p class="subtitle">Ashutosh Kala, Founder &amp; CTO Tranquil Labs, Jan 2024 to Jan 2025</p>
+          <p class="subtitle">Founder &amp; CTO Tranquil Labs, Jan 2024 to Jan 2025</p>
 
           <p>During COVID, I watched friends struggle with their mental health, and I noticed something that stuck with me. Even when someone privately admitted they had a problem, two walls stood between them and getting help:</p>
           <ul>
@@ -213,7 +248,11 @@
 
           <p class="closing">Building Tranquil taught me something I didn't fully understand until I lived it: the best product decisions rarely come from the loudest feature idea in the room, they come from actually listening, to users, to data, and sometimes to your own team telling you something isn't working yet. That's the instinct I want to keep sharpening, wherever I build next.</p>
 
-          <a href="../index.html#tranquil-case-study" class="back-link" style="margin-top:20px;">&larr; Back to portfolio</a>
+          <!-- Bottom Navigation Links -->
+          <div class="case-study-footer-nav">
+            <a href="../index.html#tranquil-case-study">&larr; Back to Case Studies</a>
+            <a href="../index.html">Checkout Portfolio &rarr;</a>
+          </div>
 
         </div>
       </div>
